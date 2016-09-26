@@ -1,0 +1,18 @@
+{
+  "name": "immoc",
+  "version": "1.0.0",
+  "description": "This is a node project",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "moment": "^2.15.0",
+    "mongoose": "^4.6.0",
+    "serve-static": "^1.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "guxiaojuan",
+  "license": "ISC"
+}
