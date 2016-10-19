@@ -6,8 +6,7 @@ var _=require('underscore')
 var Movie=require('./models/movie')
 var port=process.env.PORT || 3000
 var app=express()
-
-mongoose.connect('mongodb:localhost/imooc');
+mongoose.connect('mongodb://localhost:27017/movies');
 app.set('views','./views/pages'); //设置视图根目录
 app.set('view engine','jade');//设置模板引擎
 app.use(bodyParser.urlencoded({extended:true}));
