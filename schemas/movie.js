@@ -36,7 +36,7 @@ movieSchema.statics={
     fetch:function (db) { //取出目前数据库中的所有数据
         return this
             .find({})
-            .sort(this.meta.updateAt)
+            .sort('meta.updateAt')
             .exec(db);
     },
     findById:function(id,db){  //用来查询单条数据
