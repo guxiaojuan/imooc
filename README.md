@@ -13,6 +13,7 @@ npm install underscore
 
 #mongodb的开启及配置
 对于第一次使用mongodb这个非关系型数据库的人来说，这个数据库服务的开启真不是那么容易的
+
 简单记录下过程：
 1. 上mongodb官网下载解压后安装mongodb,我装到了G:\mongodb文件夹下
 2. 在mongodb文件夹下建立两个空文件夹data（数据库数据存放）和log（日志存放），将G:\mongodb\bin
